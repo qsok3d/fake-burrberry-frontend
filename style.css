@@ -11,7 +11,7 @@
   display: flex;
   justify-content: center;
   border-bottom: 1px solid #c6c6c6;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .header_logo{
@@ -25,10 +25,10 @@
   margin: 0;
   font-family: "Lora", Arial, Helvetica, sans-serif;
   font-weight: 400;
-  font-size: 0.875rem;
+  font-size: 1.25rem;
   color: #111111;
   padding-left: 1rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .product_gallery{
@@ -52,7 +52,7 @@
   margin: 0;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-weight: 400;
-  font-size: 1.125rem;
+  font-size: 1rem;
   line-height: 1.16;
   color:#111111;
   padding-bottom: 1rem;
@@ -141,28 +141,40 @@
 }
 
 .product_description{
-  display: flex;
-  justify-content: space-between;
   border-width: 1px 0;
   border-color: #c6c6c6;
   border-style: solid;
 }
 
 .product_description_title{
-  margin: 0;
-  text-align: left;
-  padding: 1.875rem 1rem;
-  font-family: "Raleway", Arial, Helvetica, sans-serif;
-  font-weight: 500;
-  font-size: 0.875rem;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-left: 1rem;
 }
 
-.product_description_triangle{
+.product_description_title_caption{
+  margin: 0;
+  text-align: left;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.product_description_title_triangle{
   padding-right: 1rem;
 }
 
 .product_description_text{
+  margin: 0;
   padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 0.875rem;
+  font-family: "Lora", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  padding-bottom: 2rem;
+  
 }
 
 .product_delivery{
@@ -175,10 +187,10 @@
 .product_delivery_title{
   margin: 0;
   text-align: left;
-  padding: 1.9375rem 1rem;
+  padding: 2rem 1rem;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 0.875rem;
+  font-size: 1rem;
 }
 
 .product_delivery_triangle{
@@ -192,7 +204,7 @@
   margin: 0;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 0.875rem;
+  font-size: 1rem;
   margin-left: 1rem;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid #171717;
@@ -247,9 +259,9 @@
 .recommend_more_title{
   display: inline-block;
   margin: 0;
-  font-family: "Lora", Arial, Helvetica, sans-serif;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-weight: 500;
-  font-size: 0.875rem;
+  font-size: 1rem;
   padding-bottom: 0.5rem;
   border-bottom: 2px solid #171717;
 }
