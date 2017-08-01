@@ -161,6 +161,10 @@
   padding-right: 1rem;
 }
 
+.product_description_text{
+  padding-top: 2rem;
+}
+
 .product_delivery{
   display: flex;
   justify-content: space-between;
@@ -175,6 +179,10 @@
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 0.875rem;
+}
+
+.product_delivery_triangle{
+  padding-right: 1rem;
 }
 
 /*recommend*/
