@@ -194,6 +194,12 @@
   align-items: center;
 }
 
+.product-delivery-button{
+  border: none;
+  background-color: #fff;
+  padding: 0;
+}
+
 .product-delivery-title{
   margin: 0;
   text-align: left;
