@@ -36,7 +36,6 @@
   display: flex;
   margin-bottom: 1rem;
   overflow-x: scroll;
-  overflow-y: hidden;
 }
 
 .product-gallery-image{
@@ -56,7 +55,7 @@
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.2;
   color:#111111;
   padding-bottom: 1rem;
 }
@@ -67,6 +66,7 @@
   font-weight: 400;
   font-size: 0.75rem; 
   padding-bottom: 1rem;
+  line-height: 1.3;
 }
 
 .product-card-options-colorselector-black{
@@ -104,7 +104,7 @@
   font-weight: 400;
   font-size: 0.75rem;
   color: #171717;
-  line-height: 2;
+  line-height: 1.7;
 }
 
 .product-assist{
@@ -150,34 +150,32 @@
   border-width: 1px 0;
   border-color: #c6c6c6;
   border-style: solid;
+  position: relative;
 }
 
-.product-description-title{
-  display: flex;
-  justify-content: space-between;
-  padding-top: 2rem;
-  padding-left: 1rem;
-  align-items: center;
-  padding-bottom: 2rem;
-}
-
-.product-description-title-button{
+.product-description-button{
   border: none;
   background-color: #fff;
   padding: 0;
-  line-height: 1.3;
+  line-height: 1.1;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
 }
 
-.product-description-title-caption{
+.product-description-button:after{
+  content: url(img/triangle_reverse.svg);
+  position: absolute;
+  right: 1rem;
+  top: 2rem;
+}
+
+.product-description-title{
   margin: 0;
   text-align: left;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 1rem;
-}
-
-.product-description-title-triangle{
-  padding-right: 1rem;
 }
 
 .product-description-text{
@@ -208,17 +206,22 @@
 }
 
 .product-delivery{
-  display: flex;
-  justify-content: space-between;
+  position: relative;
   border-bottom: 1px solid #c6c6c6;
   margin-bottom: 3rem;
-  align-items: center;
 }
 
 .product-delivery-button{
   border: none;
   background-color: #fff;
   padding: 0;
+}
+
+.product-delivery-button:after{
+  content: url(img/triangle.svg);
+  position: absolute;
+  right: 1rem;
+  top: 2rem;
 }
 
 .product-delivery-title{
@@ -265,18 +268,19 @@
 }
 
 .recommend-goods-item-image{
+  display: block;
   width: 100%;
   height: 174px;
 }
 
 .recommend-goods-item-name{
   margin: 0;
-  margin-bottom: 0.7rem;
-  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
   font-family: "Lora", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.1;
+  line-height: 1.2;
   color: #111111;
 }
 
@@ -373,6 +377,7 @@
   font-weight: 400;
   font-style: italic;
   font-size: 0.875rem;
+  line-height: 1.2;
   color: #171717;
 }
 
