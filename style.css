@@ -51,7 +51,7 @@
 
 .product-info__title{
   margin: 0;
-  font-family: "Raleway", Helvetica Neue, Helvetica, Arial;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.4;
@@ -61,7 +61,7 @@
 
 .product-info__text{
   margin: 0;
-  font-family: "Raleway", Helvetica Neue, Helvetica, Arial;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial;
   font-weight: 400;
   font-size: 0.75rem;
   color: #171717;
@@ -76,7 +76,7 @@
 
 .product-color__text{
   margin: 0;
-  font-family: "Raleway", Helvetica Neue, Helvetica, Arial;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial;
   font-weight: 400;
   font-size: 0.75rem; 
   padding-bottom: 1rem;
@@ -117,7 +117,7 @@
   margin-bottom: 1rem;
   background-color: #fff;
   color: #111111;
-  font-family: "Raleway", Helvetica Neue, Helvetica, Arial;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial;
   font-size: 0.75rem;
   line-height: 1.2;
 }
@@ -131,7 +131,7 @@
 .product-consultate__help{
   border: none;
   background-color: #fff;
-  font-family: "Raleway", Helvetica Neue, Helvetica, Arial;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial;
   font-size: 0.75rem;
   line-height: 1.3;
   text-align: left;
@@ -168,7 +168,7 @@
 .product-description__title{
   margin: 0;
   text-align: left;
-  font-family: "Raleway", Helvetica Neue, Helvetica, Arial;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial;
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.3;
@@ -225,7 +225,7 @@
   margin: 0;
   text-align: left;
   padding: 2rem 1rem;
-  font-family: "Raleway", Helvetica Neue, Helvetica, Arial;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial;
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.3;
@@ -236,7 +236,7 @@
 .recommend-title{
   display: inline-block;
   margin: 0;
-  font-family: "Raleway", Helvetica Neue, Helvetica, Arial;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial;
   font-weight: 500;
   font-size: 1rem;
   margin-left: 1rem;
@@ -279,7 +279,7 @@
 
 .card-item__text{
   margin: 0;
-  font-family: "Raleway", Helvetica Neue, Helvetica, Arial;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial;
   font-weight: 400;
   font-size: 0.75rem;
   color:#999999;
@@ -297,7 +297,7 @@
 .more-title{
   display: inline-block;
   margin: 0;
-  font-family: "Raleway", Helvetica Neue, Helvetica, Arial;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial;
   font-weight: 500;
   font-size: 1rem;
   padding-top: 1rem;
@@ -339,7 +339,7 @@
 .footer-button{
   border: none;
   background-color: #f3f3f3;
-  font-family: "Raleway", Helvetica Neue, Helvetica, Arial;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial;
   font-weight: 400;
   font-size: 0.75rem;
   padding: 0;
@@ -356,7 +356,7 @@
 .footer-text{
   margin: 0;
   text-align: center;
-  font-family: "Raleway", Helvetica Neue, Helvetica, Arial;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial;
   font-size: 1rem;
   font-weight: 700;
   color: #171717;
