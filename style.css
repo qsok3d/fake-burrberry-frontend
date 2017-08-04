@@ -284,7 +284,7 @@
   font-size: 0.75rem;
   color:#999999;
   margin-bottom: 2rem;
-  line-height: 1.2;
+  line-height: 1.3;
 }
 
 /*more*/
@@ -319,7 +319,7 @@
   font-weight: 400;
   font-style: italic;
   font-size: 0.875rem;
-  line-height: 1.28;
+  line-height: 1.25;
   color: #171717;
 }
 
@@ -350,7 +350,7 @@
 }
 
 .footer-button:first-child{
-  padding-top: 2rem;
+  padding-top: 2.05rem;
 }
 
 .footer-text{
@@ -364,7 +364,7 @@
   line-height: 1.3;
 }
 
-.footer-informations{
+.footer-information{
   text-decoration: none;
   text-align: center;
   padding-top: 1rem;
